@@ -100,6 +100,23 @@
       padding: 0 1rem;
     }
 
+    .animated-stars i {
+      color: #00ff99; 
+      animation: glowShift 6s ease-in-out infinite;
+      margin-right: 2px;
+    }
+
+    
+    @keyframes glowShift {
+      0%   { color: #00ff99; }   
+      25%  { color: #00ffaa; }
+      50%  { color: #00ffee; }
+      75%  { color: #00ffaa; }
+      100% { color: #00ff99; }
+    }
+
+
+
     #toggle-theme {
       margin-top: 1rem;
       padding: 0.5rem 1rem;
